@@ -17,7 +17,7 @@
                             <h1><strong>Gerar chaves</strong></h1>
                         </div>
                         <div class="form-group">
-                            <div class="col-md-12">		          	
+                            <div class="col-md-6">		          	
                                 <label for="p" class="control-label">P:</label>
                                 <div class="templatemo-input-icon-container">
                                     <i class="fa fa-user"></i>

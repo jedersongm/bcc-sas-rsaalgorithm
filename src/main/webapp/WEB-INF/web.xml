@@ -6,6 +6,14 @@
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    <servlet>
+        <servlet-name>GenerateKeys</servlet-name>
+        <servlet-class>br.edu.fafic.bcc.bcc.sas.rsaalgorithm.servlets.GenerateKeys</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GenerateKeys</servlet-name>
+        <url-pattern>/GenerateKeys</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>2</session-timeout>
     </session-config>
@@ -13,7 +21,7 @@
         <jsp-property-group>
             <url-pattern>*.jsp</url-pattern>
             <pageEncoding>utf-8</pageEncoding>
-            <include-prelude>header.jsp</include-prelude>            
+            <include-prelude>header.jsp</include-prelude>
         </jsp-property-group>
     </jsp-config>
 </web-app>
