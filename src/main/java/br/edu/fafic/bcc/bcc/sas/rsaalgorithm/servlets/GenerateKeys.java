@@ -48,7 +48,7 @@ public class GenerateKeys extends HttpServlet {
             RSA rsa = new RSA(BigInteger.valueOf(p.intValue()), BigInteger.valueOf(q.intValue()));
             HttpSession session  =  request.getSession();
             session.setAttribute("rsa",rsa);
-            dispatcher = request.getRequestDispatcher("/index.jsp");
+            dispatcher = request.getRequestDispatcher("/cypher.jsp");
             dispatcher.forward(request, response);
         }else if(!Prime.isPrime(p) && !Prime.isPrime(q)){
             request.setAttribute("mensagem", "Números informados não são primos ");
