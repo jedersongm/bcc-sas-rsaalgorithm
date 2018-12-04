@@ -61,4 +61,55 @@ public class RSA {
     {
         return (new BigInteger(message)).modPow(this.d, this.n).toByteArray();
     }
+
+    public BigInteger getP() {
+        return p;
+    }
+
+    public void setP(BigInteger p) {
+        this.p = p;
+    }
+
+    public BigInteger getQ() {
+        return q;
+    }
+
+    public void setQ(BigInteger q) {
+        this.q = q;
+    }
+
+    public BigInteger getN() {
+        return n;
+    }
+
+    public void setN(BigInteger n) {
+        this.n = n;
+    }
+
+    public BigInteger getZ() {
+        return z;
+    }
+
+    public void setZ(BigInteger z) {
+        this.z = z;
+    }
+
+    public BigInteger getE() {
+        return e;
+    }
+
+    public void setE(BigInteger e) {
+        this.e = e;
+    }
+
+    public BigInteger getD() {
+        return d;
+    }
+
+    public void setD(BigInteger d) {
+        this.d = d;
+    }
+
+       
+    
 }
