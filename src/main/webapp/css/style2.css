@@ -1,5 +1,7 @@
 body{
-    background-color:rgba(64, 64, 64, 1);
+    background-image: url(../images/criptografia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #allContent{

@@ -1,5 +1,17 @@
 
-* body { font-family: 'Open Sans', sans-serif; }
+* body { font-family: 'Open Sans', sans-serif; 
+}
+body{
+    background-image: url(images/criptografia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.backgroud_cripto{
+    background-image: url(../images/criptografia.jpg);
+    background-repeat:no-repeat;
+    background-size: auto;
+}
 h1 {
 	font-weight: 300;
 	font-size: 36px;
@@ -62,19 +74,11 @@ h2 {
 }
 .templatemo-bg-gray { background-color: #eee; }
 .templatemo-bg-gray h1 { color: rgb(74, 164, 180); }
-.templatemo-bg-image-1 {
-	background-color: rgb(60,60,60);
-	background-image: url(../images/templatemo-bg-1.jpg);	
-}
-.templatemo-bg-image-2 {
-	background-color: rgb(70, 90, 60);
-	background-image: url(../images/livros4.jpg);
-        
-}
 
-.templatemo-bg-image-3 {
+templatemo-bg-image-2 {
 	background-color: rgb(70, 90, 60);
-	background-image: url(../images/rolo1.jpg);
+	background-image: url(../images/criptografia.jpg);
+        position: static;
 }
 .templatemo-bg-image-1, .templatemo-bg-image-2 {
 	background-repeat: no-repeat;

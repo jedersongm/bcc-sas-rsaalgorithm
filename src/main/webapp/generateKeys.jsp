@@ -37,7 +37,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-md-12">
-                                <input type="submit" value="GERAR" class="btn btn-default">
+                                <input type="submit" value="GERAR" class="btn btn-outline-primary">
                             </div>
                         </div>
                     </div>
