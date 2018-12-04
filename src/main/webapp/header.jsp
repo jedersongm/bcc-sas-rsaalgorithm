@@ -49,8 +49,9 @@
                         <li>
                             <a href="index.jsp"><span class="glyphicon glyphicon-home"></span> Home</a>
                         </li>
+                        
                         <li>
-                            <h1> RSA Algorithm</h1>
+                            <a href="generateKeys.jsp"><span class="glyphicon glyphicon-lock"></span> Gerar chaves</a>
                         </li>
                     </ul>
                 </div>

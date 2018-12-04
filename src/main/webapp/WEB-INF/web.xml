@@ -13,8 +13,7 @@
         <jsp-property-group>
             <url-pattern>*.jsp</url-pattern>
             <pageEncoding>utf-8</pageEncoding>
-            <include-prelude>header.jsp</include-prelude>
-            <include-coda>footer.jsp</include-coda>
+            <include-prelude>header.jsp</include-prelude>            
         </jsp-property-group>
     </jsp-config>
 </web-app>
